@@ -9,8 +9,8 @@ const DeveloperTeam: React.FC = () => {
 
   return (
     <div>
-      <p>User: {context.title}</p>
-      <p>Age: {context.year}</p>
+      <p>Title: {context.title}</p>
+      <p>Year: {context.year}</p>
     </div>
   );
 };
